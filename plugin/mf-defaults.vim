@@ -35,6 +35,7 @@ endfunction
 function s:LoadFileSettings()
     autocmd FileType java set sw=4
     autocmd FileType mvn_pom set sw=2
+    autocmd FileType javascript set sw=2
 endfunction
 
 " Vim supports undofiles from approximately v7.3. These allow for a persistent
